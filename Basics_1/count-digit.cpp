@@ -15,3 +15,8 @@ int main() {
     }
     return 0;
 }
+
+
+//one liner version
+//int count = (int)(log10(n)+1);
+//cout<<count;
