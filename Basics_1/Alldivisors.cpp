@@ -9,3 +9,5 @@ int main() {
     }
     return 0;
 }
+
+// sqrt and vector use for optimization
