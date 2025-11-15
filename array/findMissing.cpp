@@ -20,3 +20,22 @@ int main() {
    cout<<"missing number is "<< missing_num(arr);
     return 0;
 }
+
+
+//another optimal approach
+// int missingNumber(vector<int>& arr) {
+//     int n = arr.size();
+//     int xr = 0;
+
+//     // XOR numbers from 0 to n
+//     for (int i = 0; i <= n; i++) {
+//         xr ^= i;
+//     }
+
+//     // XOR all elements of the array (normal loop)
+//     for (int i = 0; i < n; i++) {
+//         xr ^= arr[i];
+//     }
+
+//     return xr;
+// } this is better because value of n might oveflow 
